@@ -1,9 +1,10 @@
 import React from 'react';
-import Card from './Card';
+import Card from '../Card/Card';
+import style from './Cards.module.css'
 
 export default function Cards(props) {
     return(
-      <div id="Cards">
+      <div className={style.cards}>
         {
           props.characters.map((card)=>{
               return <Card 
@@ -17,7 +18,6 @@ export default function Cards(props) {
             }
           )
         }
-
       </div>
       
     );
