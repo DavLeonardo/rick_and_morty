@@ -1,0 +1,49 @@
+.card{
+  width: 200px;
+  height: 200px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #1AFF00;
+  background-color: rgb(16, 18, 23);
+  border-radius: 10px;
+  z-index: 1;
+  transition: all 1s;
+}
+
+.datos{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transform: translateY(-227px);
+  border-radius: 10px;
+  background-color: #1AFF00;
+  font-size:small ;
+}
+.card:hover .datos{
+  
+}
+
+
+.close{
+  color: rgb(66, 66, 66);
+  position: relative;
+  top: -205px;
+  left: 90px;
+  border: transparent;
+  background-color: transparent;
+  font-size: larger;
+  
+}
+.close:hover{
+  color: rgb(255, 0, 0);
+  cursor: pointer;
+}
+.image{
+  width: 100%;
+  border-radius: 5px;
+  z-index: 5;
+}
+
+
+
+
