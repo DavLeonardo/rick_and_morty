@@ -43,20 +43,32 @@
 
 }
 .datos{
+  padding: 5px;
+  width: fit-content;
   display: flex;
-  background-color: #551bb3e2;
-  color: #3ddb8f;
+  flex-direction: column;
+  background-color:transparent;
+  font-family: 'Cascadia Code';
+  color: transparent;
   position: relative;
-  top: -135px;
+  top: -145px;
+  left: -5px;
   border-radius: 10px;
   height:40px;
-  margin: 10px;
+  margin: 5px;
+  transition: all 1s;
+}
+.card:hover .datos{
+  background-color: #551bb3e2;
+  color: #3ddb8f;
+  transition: all 1s;
 }
 .species{
-  margin: 10px;
+  margin: 2px;
 }
 .gender{
-  margin: 10px;
+  margin: 2px;
+  margin-left: 10px;
 }
 
 
