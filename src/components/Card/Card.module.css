@@ -33,7 +33,7 @@
   width: fit-content;
   padding: 2px;
   border-radius: 5px;
-  color: #3ddb8f;
+  color: #dbf73b;
   font-family: 'Cascadia Code';
   background-color: #551bb3e2;
   font-size: large;
@@ -41,6 +41,9 @@
   top: -345px;
   left: 10px;
 
+}
+.name:hover{
+  color: #eb0258;
 }
 .datos{
   padding: 5px;
@@ -56,12 +59,12 @@
   border-radius: 10px;
   height:40px;
   margin: 5px;
-  transition: all 1s;
+  transition: all 0.5s;
 }
 .card:hover .datos{
   background-color: #551bb3e2;
-  color: #3ddb8f;
-  transition: all 1s;
+  color: #dbf73b;
+  transition: all 0.5s;
 }
 .species{
   margin: 2px;
