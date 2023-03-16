@@ -12,8 +12,9 @@ export default function Cards(props) {
                 name={card.name} 
                 species={card.species} 
                 gender={card.gender} 
-                image={card.image} 
-                onClose={() => window.alert('Emulamos que se cierra la card')}
+                image={card.image}
+                id={card.id}
+                onClose={props.onClose}
               />
             }
           )
