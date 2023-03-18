@@ -1,0 +1,18 @@
+.page{
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  position: fixed;
+  top:0;
+  left:0;
+  background: linear-gradient(134deg,#31ada1, #beed80);
+  font-family: Cascadia Code;
+}
+
+.cards{
+  margin-top: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content:space-around;
+}

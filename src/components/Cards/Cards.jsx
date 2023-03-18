@@ -4,7 +4,8 @@ import style from './Cards.module.css'
 
 export default function Cards(props) {
     return(
-      <div className={style.cards}>
+      <div className={style.page}>
+        <div className={style.cards}>
         {
           props.characters.map((card)=>{
               return <Card 
@@ -20,6 +21,8 @@ export default function Cards(props) {
           )
         }
       </div>
+      </div>
+      
       
     );
 };

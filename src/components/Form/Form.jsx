@@ -32,19 +32,22 @@ const Form = ({login}) =>{
   };
 
   return(
-    <form className={styles.form} onSubmit={submitHandler}>
+    <div className={styles.page} >
+      <form className={styles.form} onSubmit={submitHandler}>
       <div>
-        <label htmlFor="username">Username:</label>
-        <input type="text" name="username" value={userData.username} onChange={handleInputChange}/>
-        <p>{errors.username}</p>
+        <label htmlFor="username" ></label>
+        <input type="text" className={styles.input} name="username" placeholder="Username" value={userData.username} onChange={handleInputChange}/>
+        <p className={styles.error}>{errors.username}</p>
       </div>
       <div>
-        <label htmlFor="password">Password:</label>
-        <input type="text" name="password" value={userData.password} onChange={handleInputChange}/>
-        <p>{errors.password}</p>
+        <label htmlFor="password"></label>
+        <input type="text" className={styles.input} name="password" placeholder="Password" value={userData.password} onChange={handleInputChange}/>
+        <p className={styles.error}>{errors.password}</p>
       </div>
-      <button>LOGIN</button>
+      <button className={styles.button}>LOGIN</button>
     </form>
+    </div>
+    
   );
 };
 

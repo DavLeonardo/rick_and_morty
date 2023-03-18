@@ -1,0 +1,19 @@
+.search{
+  flex: 1;
+  border: 0;
+  color: gray;
+  font-size: 1rem;
+}
+.button{
+  margin: 0px 5px;
+  border: 0;
+  color: gray;
+  font-size: 1rem;
+  background: linear-gradient(134deg,#31ada1, #beed80);
+  transition: all 1s;
+}
+.button:hover{
+  background: linear-gradient(164deg,#eb0258, #31ada1);
+  color: #a9f04d;
+  transition: all 1s;
+}

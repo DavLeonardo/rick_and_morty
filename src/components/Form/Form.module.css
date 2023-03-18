@@ -1,0 +1,54 @@
+.page{
+  width: 100%;
+  min-height: 100%;
+  height: auto;
+  position: fixed;
+  top:0;
+  left:0;
+  background: linear-gradient(134deg,#31ada1, #beed80);
+  font-family: Cascadia Code;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 12%;
+  background-color: #453c5cc5;
+  width: 300px;
+  height: 300px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #a9f04d;
+  border-radius: 10px;
+}
+
+.input{
+  flex: 1;
+  padding: 1em;
+  border: 0;
+  color: gray;
+  font-size: 1rem;
+}
+
+.error{
+  color: #a9f04d;
+}
+
+.button{
+  display: block;
+  padding: 1em;
+  border: 0;
+  color: gray;
+  font-size: 1rem;
+  width: 60%;
+  background: linear-gradient(134deg,#31ada1, #beed80);
+  transition: all 1s;
+}
+.button:hover{
+  background: linear-gradient(164deg,#eb0258, #31ada1);
+  color: #a9f04d;
+  transition: all 1s;
+}

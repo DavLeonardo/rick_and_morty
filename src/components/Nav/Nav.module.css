@@ -1,9 +1,30 @@
 .nav{
-  background-color: rgb(243, 240, 246);
-  margin: 10px;
-  position: fixed;
-  width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  background-color: #453c5cc5;
+  position: fixed;
+  align-items: center;
+  justify-content: flex-start;
+  border-width: 3px;
+  border-style: solid;
+  border-color: #a9f04d;
+  border-radius: 10px;
+  z-index: 1;
+  width: 97%;
+  font-family: Cascadia Code;
+  margin: 0 -10px;
+  
+}
+.home{
+  margin: 10px 30px;
+  color: #a9f04d;
+}
+
+.home:hover{
+  color: #fc0284;
+}
+
+.search{
+  margin: 10px 10px;
+  margin-left: auto;
 }

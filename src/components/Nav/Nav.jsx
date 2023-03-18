@@ -6,13 +6,19 @@ import {Link} from "react-router-dom"
 function Nav(props){
   return(
     <div className={style.nav}>
-      <SerachBar onSearch={props.onSearch}/>
-      <Link to="/about">
-        <h3>About</h3>
-      </Link>
       <Link to="/home">
-        <h3>Home</h3>
+        <h3 className={style.home}>Home </h3>
       </Link>
+      <Link to="/about">
+        <h3 className={style.home}>About </h3>
+      </Link>
+      <Link to="/favorites">
+        <h3 className={style.home}>Favorites </h3>
+      </Link>
+      <div className={style.search}>
+        <SerachBar  onSearch={props.onSearch}/>
+      </div>
+      
     </div>
   );
 

@@ -11,37 +11,29 @@
 
 .close{
   color: rgb(66, 66, 66);
+  width: fit-content;
+  height: fit-content;
   border: transparent;
   background-color: transparent;
   font-size: x-large;
   position: relative;
-  top: -305px;
+  top: -330px;
   left: 135px;
+  z-index: 1;
 }
 
 .close:hover{
   color: rgb(255, 0, 0);
   cursor: pointer;
-  
+  z-index: 1;
 }
 
 .image{
   border-radius: 5px;
-}
-
-.name{
-  width: fit-content;
-  padding: 2px;
-  border-radius: 5px;
-  color: #dbf73b;
-  font-family: 'Cascadia Code';
-  background-color: #551bb3e2;
-  font-size: large;
   position: relative;
-  top: -345px;
-  left: 10px;
-
+  top: -28px;
 }
+
 .name:hover{
   color: #eb0258;
 }
@@ -54,8 +46,7 @@
   font-family: 'Cascadia Code';
   color: transparent;
   position: relative;
-  top: -145px;
-  left: -5px;
+  top: -180px;
   border-radius: 10px;
   height:40px;
   margin: 5px;
@@ -75,6 +66,37 @@
   margin: 2px;
   font-size: small;
 }
+.fav{
+  
+  position: relative;
+  top: 10px;
+  z-index: 1;
+  left: -135px;
+  
+}
 
+.button{
+  background-color: transparent;
+  border: 0px;
+  font-size: larger;
+}
+.button:hover{
+  cursor: pointer;
+}
 
-
+.name{
+  color: #dbf73b;
+  padding: 1px;
+  width: fit-content;
+  border-radius: 5px;
+  font-family: 'Cascadia Code';
+  background-color: #551bb3e2;
+}
+.link{
+  background-color: #eb0258;
+  width: fit-content;
+  position: relative;
+  top: -340px;
+  left: 5px;
+  z-index: 1;
+}
