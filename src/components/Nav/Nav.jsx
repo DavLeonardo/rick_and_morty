@@ -9,11 +9,12 @@ function Nav(props){
       <Link to="/home">
         <h3 className={style.home}>Home </h3>
       </Link>
-      <Link to="/about">
-        <h3 className={style.home}>About </h3>
-      </Link>
+      
       <Link to="/favorites">
         <h3 className={style.home}>Favorites </h3>
+      </Link>
+      <Link to="/about">
+        <h3 className={style.home}>About </h3>
       </Link>
       <div className={style.search}>
         <SerachBar  onSearch={props.onSearch}/>
