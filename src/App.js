@@ -48,7 +48,7 @@ function App() {
   const location = useLocation();
   const login = (userData) => {
     if (userData.username === username && userData.password === password) {
-      setAccess(true);  .36
+      setAccess(true);
       navigate("/home");
     } else {
       alert("Datos incorrectos!");
