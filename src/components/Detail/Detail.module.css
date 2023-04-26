@@ -1,3 +1,31 @@
 .detail{
-  margin-top: 200px;
+  margin-top: 100px;
+  margin-left: 30%;
+}
+
+.contenedor{
+  border-width: 3px;
+  border-style: solid;
+  border-color: #a9f04d;
+  display: flex;
+  border-radius: 10px;
+  margin: 10px;
+  z-index: 2;
+  background-color: #551bb3e2;
+  width: fit-content;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+.image{
+  height: 350px;
+  border-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.datos{
+  position: relative;
+  width: 200px;
+  font-family: 'Cascadia Code';
+  color: #dbf73b;
 }

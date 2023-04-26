@@ -1,10 +1,10 @@
 .card{
+  position: relative;
   height: 300px;
   width: 300px;
   border-width: 3px;
   border-style: solid;
   border-color: #a9f04d;
-  background-color: rgb(16, 18, 23);
   border-radius: 10px;
   margin: 10px;
 }
@@ -25,7 +25,7 @@
 .close:hover{
   color: rgb(255, 0, 0);
   cursor: pointer;
-  z-index: 1;
+  z-index: 2;
 }
 
 .image{
@@ -35,18 +35,21 @@
 }
 
 .name:hover{
+  position: relative;
   color: #eb0258;
 }
+
 .datos{
   padding: 5px;
   width: fit-content;
+  position: relative;
   display: flex;
   flex-direction: column;
   background-color:transparent;
   font-family: 'Cascadia Code';
   color: transparent;
   position: relative;
-  top: -180px;
+  top: -165px;
   border-radius: 10px;
   height:40px;
   margin: 5px;
@@ -67,12 +70,10 @@
   font-size: small;
 }
 .fav{
-  
   position: relative;
-  top: 10px;
-  z-index: 1;
+  top: 25px;
+  z-index: 2;
   left: -135px;
-  
 }
 
 .button{
@@ -86,11 +87,12 @@
 
 .name{
   color: #dbf73b;
-  padding: 1px;
   width: fit-content;
   border-radius: 5px;
   font-family: 'Cascadia Code';
   background-color: #551bb3e2;
+  position: relative;
+  top: -30px;
 }
 .link{
   background-color: #eb0258;
